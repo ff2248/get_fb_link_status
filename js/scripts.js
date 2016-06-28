@@ -17,7 +17,7 @@ $(function(){
     if (onSync) return;
     onSync = true;
 
-    api_url = "http://api.facebook.com/restserver.php?method=links.getStats&format=json&urls=" + inputUrl.val();
+    api_url = "https://api.facebook.com/restserver.php?method=links.getStats&format=json&urls=" + inputUrl.val();
 
     $.ajax({
       type: 'GET',
